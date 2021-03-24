@@ -81,7 +81,7 @@ public class StripeApplication implements CommandLineRunner {
 
 		
 		// a partir du customer id, on crée la requete bancaire
-		
+		/*
 		String amount = "500";
 		String currency = "usd";
 		Map<String, Object> chargeParam = new HashMap<String, Object>();
@@ -90,6 +90,7 @@ public class StripeApplication implements CommandLineRunner {
 		chargeParam.put("customer", a.getId());
 		
 		Charge.create(chargeParam);
+		*/
 		
 	}
 
